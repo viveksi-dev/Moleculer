@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="13307" started-at="2020-03-12T12:56:38Z" finished-at="2020-03-12T12:56:51Z">
+    <groups>
+    </groups>
+    <test name="chrome Test" duration-ms="13307" started-at="2020-03-12T12:56:38Z" finished-at="2020-03-12T12:56:51Z">
+      <class name="molecular.HelloWorld_Main">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:molecular.HelloWorld_Main@8bd1b6a]" name="verifyHomepageTitle" is-config="true" duration-ms="19" started-at="2020-03-12T18:26:51Z" finished-at="2020-03-12T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="Molecular()[pri:0, instance:molecular.HelloWorld_Main@8bd1b6a]" name="Molecular" duration-ms="586" started-at="2020-03-12T18:26:51Z" finished-at="2020-03-12T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Molecular -->
+      </class> <!-- molecular.HelloWorld_Main -->
+      <class name="molecular.HelloWorld">
+        <test-method status="PASS" signature="setupSuite(java.lang.String)[pri:0, instance:molecular.HelloWorld@55f3ddb1]" name="setupSuite" is-config="true" duration-ms="12683" started-at="2020-03-12T18:26:38Z" finished-at="2020-03-12T18:26:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:molecular.HelloWorld@55f3ddb1]" name="startReport" is-config="true" duration-ms="1" started-at="2020-03-12T18:26:51Z" finished-at="2020-03-12T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:molecular.HelloWorld@55f3ddb1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:26:51Z" finished-at="2020-03-12T18:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- molecular.HelloWorld -->
+    </test> <!-- chrome Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
