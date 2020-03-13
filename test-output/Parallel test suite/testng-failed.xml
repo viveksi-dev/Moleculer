@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="none">
   <parameter name="browser" value="chrome"/>
-  <test name="Firefox Test(failed)" parallel="none">
+  <test name="chrome Test(failed)" parallel="none">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="molecular.HelloWorld">
@@ -14,10 +14,10 @@
       </class> <!-- molecular.HelloWorld -->
       <class name="molecular.HelloWorld_Main">
         <methods>
-          <include name="verifyHomepageTitle"/>
           <include name="Molecular"/>
+          <include name="verifyHomepageTitle"/>
         </methods>
       </class> <!-- molecular.HelloWorld_Main -->
     </classes>
-  </test> <!-- Firefox Test(failed) -->
+  </test> <!-- chrome Test(failed) -->
 </suite> <!-- Failed suite [Parallel test suite] -->
